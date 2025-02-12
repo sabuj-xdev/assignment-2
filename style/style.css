@@ -1,0 +1,124 @@
+/* Global Styles */
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Quicksand:wght@300..700&family=Raleway:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Quicksand', sans-serif;
+}
+/*  header section style  */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 5%;
+    background: white;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.logo-img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.logo-text {
+    display: flex;
+    align-items: center;
+    height: 30px;
+    line-height: 30px;
+}
+.nav-links ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+.nav-links ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+.contact-btn {
+    color:rgb(255, 255, 255);
+    background: rgb(254, 163, 1);
+    padding: 10px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.menu-icon{
+    display: none;
+}
+.menu-icon i{
+    cursor: pointer;
+}
+/* Hero Section */
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 5%;
+    gap: 50px;
+}
+.hero-text h1 {
+    font-size: 3rem;
+font-weight: 700;
+line-height: 61px;
+letter-spacing: 0%;
+}
+.hero-text .empowering{
+    color:rgb(254, 163, 1);
+}
+.hero-text span {
+    color:rgb(1, 172, 253);
+}
+
+.enroll-btn {
+    background: rgb(17, 17, 17);
+    color: rgb(255, 255, 255);
+    padding: 10px 25px;
+    border: none;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+.hero-img {
+    width: 350px;
+    height: auto;
+}
+
+/* Responsive Design */
+@media (max-width: 576px) {
+
+/* display none .logo  span nav links button*/
+
+.logo span , .nav-links ,button{
+    display:none;
+}
+ /* Show Only Logo and Menu Icon */
+ .menu-icon {
+    display: block;
+}
+
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-text {
+        max-width: 100%;
+    }
+
+    .hero-img {
+        width: 80%;
+    }
+
+    
+}
