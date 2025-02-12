@@ -218,3 +218,78 @@ letter-spacing: 0%;
         align-items: center;
     }
 }
+/* footer style  */
+.footer{
+    background-color: rgb(1, 172, 253);
+    padding:30px;
+}
+.kids-education{
+  
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:60px;
+
+}
+.position{
+    position:relative;
+    top:15px;
+    right:55px;
+    width:47px;
+    height: 0px;
+    border:9px solid rgb(255, 255, 255);
+    /* z-index:-1; */
+}
+
+.logoes .logo span{
+    width:185px;
+color: rgb(255, 255, 255);
+font-family: Quicksand;
+font-size: 30px;
+font-weight: 700;
+line-height: 35px;
+letter-spacing: 0%;
+/* margin-left:px; */
+position:relative;
+right: 35px;
+}
+.logoes .logo-title{
+    font-size: 0.9rem;
+    color: gray;
+    width:360px;
+    margin-top:10px;
+}
+.about-scl h4{
+color: rgb(255, 255, 255);
+font-family: Quicksand;
+font-size: 16px;
+font-weight: 700;
+line-height: 30px;
+letter-spacing: 0%;
+padding:5px;
+}
+.about-scl p{
+color: rgb(255, 255, 255);
+font-family: Quicksand;
+font-size: 12px;
+font-weight: 500;
+line-height: 25px;
+letter-spacing: 0%;
+padding:2px;
+}
+.keep-in-teach h4{
+color: rgb(255, 255, 255);
+font-family: Quicksand;
+font-size: 18px;
+font-weight: 700;
+line-height: 26px;
+letter-spacing: 0%;
+position:relative;
+bottom:35px;
+}
+.keep-in-teach img{
+    width:20px;
+    padding:2px;
+    position:relative;
+    bottom:20px;
+}
