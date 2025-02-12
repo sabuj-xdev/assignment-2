@@ -122,3 +122,99 @@ letter-spacing: 0%;
 
     
 }
+/* curriculum section style  */
+
+.curriculum {
+    padding: 50px 5%;
+}
+.title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 50px;
+    /* position:relative;
+    left:420px; */
+    display:flex;
+    justify-content: center;
+}
+/* card style  */
+.card-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.card {
+    background: white;
+    width: 250px;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+.card-one{
+    background: linear-gradient(to bottom, rgb(222, 245, 255), rgba(255, 255, 255, 0));
+}
+ .card-two{
+    background: linear-gradient(to bottom, rgb(255, 244, 220), rgba(255, 255, 255, 0));
+}
+.card-three{
+    background: linear-gradient(to bottom, rgb(238, 225, 255), rgba(255, 255, 255, 0));
+}
+.card:hover {
+    transform: translateY(-5px);
+}
+.card-icon img {
+    width: 80px;
+    margin-bottom: 15px;
+}
+.card h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+.card p {
+    font-size: 0.9rem;
+    color: gray;
+    margin-bottom: 15px;
+}
+.read-more {
+    text-decoration: none;
+    font-weight: bold;
+}
+.blue {
+    color: rgb(100, 200, 255);
+}
+
+.orange {
+    color: rgb(240, 170, 0);
+}
+
+.purple {
+    color: rgb(135, 0, 255);
+}
+.nav-buttons {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+.btn {
+    background: orange;
+    border: none;
+    padding: 10px 15px;
+    font-size: 1rem;
+    color: white;
+    cursor: pointer;
+    border-radius: 50%;
+    transition: background 0.3s ease;
+}
+.btn:hover {
+    background: darkorange;
+}
+/* responsive design  */
+@media (max-width: 576px) {
+    .card-container {
+        flex-direction: column;
+        align-items: center;
+    }
+}
